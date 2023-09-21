@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+/* styles.css */
+.container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.players {
+    margin-bottom: 20px;
+}
+
+.players input {
+    margin: 5px;
+    padding: 5px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.board .cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.message {
+    margin-top: 20px;
+    font-weight: bold;
+}
